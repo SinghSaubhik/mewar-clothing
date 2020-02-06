@@ -1,9 +1,8 @@
 import React from "react";
 import "./cart-item.styles.scss";
 
-const CartItem = (props) => {
-  console.log(props);
 
+const CartItem = props => {
   const { imageUrl, price, name, quantity } = props.item;
   return (
     <div className="cart-item">
